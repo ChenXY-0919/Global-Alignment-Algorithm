@@ -6,8 +6,8 @@ Usage
 ----------------------
 Linux bash shell or windows cmd:  
 
-*Switch the working path to the folder where the program is located.  
-  *get usage:
+* Switch the working path to the folder where the program is located.  
+  * get usage:
 ```Bash
 python bin/scratch.py -h  
 optional arguments:  
@@ -26,5 +26,12 @@ optional arguments:
   -m MAX_OUTPUT, --max_output MAX_OUTPUT  
                         Set the max number of alignment results to  
                         output.,Default:100  
+ ```
+  Eg. 1  
+  ```Bash
+  python bin/scratch.py -s test_data/scoring_matrix.txt -f test_data/ACTB.txt -o result.txt
   ```
-  
+  Eg.2  
+  ```Bash
+  python bin/scratch.py -s test_data/scoring_matrix.txt -A AGC -a AAG
+  ```
